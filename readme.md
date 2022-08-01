@@ -10,4 +10,14 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+- Install Docker
+
+- Run commands `docker -v` and `docker-compose -v` to check is docker is running properly.
+
+- Run `docker-compose up` from the project root directory to load Anythink's backend and frontend.
+
+- Test frontend & backend of projects on sites [http://localhost:3000/api/ping](http://localhost:3000/api/ping) & [http://localhost:3001/register](http://localhost:3001/register) respectively.
+
+- Just make sure that you run all scripts in the next quests on one of the containers created by `docker-compose up`.  Also, you can use `docker exec` to run commands on a running container.
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
